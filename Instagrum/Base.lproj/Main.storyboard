@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="8dt-2Y-f8f">
             <objects>
-                <viewController id="27o-ZO-c3u" customClass="LoginViewController" customModule="Instagrum" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="27o-ZO-c3u" customClass="LoginViewController" customModule="SideJob" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TbQ-hC-Ezf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,7 +54,7 @@
                         <viewLayoutGuide key="safeArea" id="8eC-9b-Jr6"/>
                     </view>
                     <connections>
-                        <outlet property="passwordField" destination="fgN-CG-tzy" id="2xX-Hv-Eq5"/>
+                        <outlet property="passwordField" destination="fgN-CG-tzy" id="0uv-76-JGc"/>
                         <outlet property="usernameField" destination="UG3-xF-faA" id="iSx-4E-7Gd"/>
                         <segue destination="QGz-SH-Kle" kind="presentation" identifier="homeSegue" id="VYx-3b-xxN"/>
                     </connections>
@@ -66,7 +66,7 @@
         <!--Home-->
         <scene sceneID="f4J-k4-vAI">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RmR-Ah-8Xs" customClass="HomeViewController" customModule="Instagrum" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RmR-Ah-8Xs" customClass="HomeViewController" customModule="SideJob" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cwy-Oa-IAz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,7 +76,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="homePosts" rowHeight="315" id="3se-PV-Yjk" customClass="HomeTableViewCell" customModule="Instagrum" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="homePosts" rowHeight="315" id="3se-PV-Yjk" customClass="HomeTableViewCell" customModule="SideJob" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="315"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3se-PV-Yjk" id="iaK-gm-J3c">
@@ -140,7 +140,7 @@
         <!--Compose View Controller-->
         <scene sceneID="ApV-aA-vXY">
             <objects>
-                <viewController id="HA7-36-TYS" customClass="ComposeViewController" customModule="Instagrum" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="HA7-36-TYS" customClass="ComposeViewController" customModule="SideJob" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3K2-Rg-IjX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -194,7 +194,7 @@
         <!--Profile View Controller-->
         <scene sceneID="6wE-2W-KIf">
             <objects>
-                <viewController id="xlW-Qp-HgE" customClass="ProfileViewController" customModule="Instagrum" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xlW-Qp-HgE" customClass="ProfileViewController" customModule="SideJob" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r58-Af-Z1m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -210,7 +210,7 @@
         <!--Register View Controller-->
         <scene sceneID="iKH-IQ-MvU">
             <objects>
-                <viewController id="M1Y-xq-6Dx" customClass="RegisterViewController" customModule="Instagrum" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="M1Y-xq-6Dx" customClass="RegisterViewController" customModule="SideJob" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TFh-Db-onp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -350,8 +350,7 @@
         <image name="profile_tab" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="NOH-LK-B18"/>
-        <segue reference="cJu-uG-CV0"/>
+        <segue reference="VYx-3b-xxN"/>
         <segue reference="EI3-Wv-k9v"/>
     </inferredMetricsTieBreakers>
 </document>
